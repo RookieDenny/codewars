@@ -8,7 +8,4 @@
 # 輸入：[-2.398]
 # 輸出：-2.398
 def sum_array(a):
-    if a == []:
-        return 0
-    else:
-        return sum(a)
+    return sum(a) if a else 0

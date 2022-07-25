@@ -6,8 +6,5 @@
 
 
 def chromosome_check(sperm):
-    #Your code here
-    if sperm == 'XY':
-        return 'Congratulations! You\'re going to have a son.'
-    else:
-        return 'Congratulations! You\'re going to have a daughter.'
+    gender = 'son' if 'Y' in sperm else 'daughter'
+    return (f"Congratulations! You're going to have a {gender}")
