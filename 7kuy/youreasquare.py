@@ -14,11 +14,7 @@
 #我的解法
 def is_square(n):    
     a  = n ** 0.5
-    if a * a == n:
-        return True
-    else:
-        return False
-
+    return a * a == n
 #大神解法
     #return n >= 0 and (n**0.5) % 1 == 0
     # 先比對n數有沒有大於等於0和有沒有整除回傳
