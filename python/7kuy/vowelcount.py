@@ -4,7 +4,7 @@
 # 輸入字符串將僅包含小寫字母和/或空格。
 
 
-##我的解法
+
 def get_count(sentence):
     count = 0
     y = "aeiou"
@@ -15,7 +15,6 @@ def get_count(sentence):
     return (count)
 
 
-#大神解法
+
 #def getCount(s):
 #return sum(c in 'aeiou' for c in s)
-#s的值一個一個的帶進去c，再去判斷c有沒""aeiou"，再加起來迴傳

@@ -4,7 +4,7 @@
 # [10, 343445353, 3453445, 3453545353453]應該返回3453455。
 
 
-#我的解法
+
 def sum_two_smallest_numbers(numbers):
     a = sorted(numbers)
     x = a[0] + a[1]
@@ -12,6 +12,5 @@ def sum_two_smallest_numbers(numbers):
 
 
 
-#大神解法
-    # return sum(sorted(numbers)[:2])
-    # sorted排序numbers數字之後抓出0,1相加回傳
+
+# return sum(sorted(numbers)[:2])

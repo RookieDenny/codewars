@@ -8,12 +8,12 @@
 # 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 
 
-#我的解法
+
 def digital_root(n):
     while n >= 10:
         n = sum([int(x)for x in str(n)])
     return n
 
-#大神解法
+
 # def digital_root(n):
 #     return n%9 or n and 9

@@ -10,5 +10,4 @@
 def add_binary(a,b):
     return bin(a + b)[2:]
 
-#a+b相加使用bin二進制之後抓取索引2到底部的數字回傳
 

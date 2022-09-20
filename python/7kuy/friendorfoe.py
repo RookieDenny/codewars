@@ -4,7 +4,7 @@
 # 例如：輸入 = ["Ryan", "Kieran", "Jason", "Yous"]，輸出 = ["Ryan", "Yous"]
 # friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 
-#我的解法
+
 def friend(x):
     a = []
     for y in x:
@@ -13,6 +13,5 @@ def friend(x):
     return a 
 
 
-#大神解法
-    # return [f for f in x if len(f) == 4]
-    # 將陣列字串依序代進f,比對f長度等於4的放進最前面f回傳
+
+# return [f for f in x if len(f) == 4]

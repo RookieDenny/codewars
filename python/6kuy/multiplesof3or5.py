@@ -5,7 +5,7 @@
 
 
 
-#我的解法
+
 def solution(number):
     i = []
     for x in range(1,number):
@@ -13,6 +13,6 @@ def solution(number):
             i.append(x)
     return sum(i)
 
-#大神解法
+
 # def solution(number):
 #     return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)

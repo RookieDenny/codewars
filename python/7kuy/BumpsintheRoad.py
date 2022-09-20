@@ -12,7 +12,6 @@ def bumps(road):
     else:
         return "Car Dead"
 
-#大神解法
+
 # return "Woohoo!" if road.count("n") <= 15 else "Car Dead"
-# 用count判斷字串n在字符串出現幾次去比對15，True就回傳"Woohoo!"，False回傳"Car Dead"
 

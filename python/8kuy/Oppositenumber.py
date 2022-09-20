@@ -6,7 +6,6 @@
 # -34: 34
 
 def opposite(number):
-  # your solution here
     if abs(number) == number:
         return - + number
     else:

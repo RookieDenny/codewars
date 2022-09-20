@@ -4,9 +4,6 @@
 # 所有輸入都是有效的。
 
 
-#我的解法
+
 def last(s):
     return sorted(s.split(),key=lambda x:x[-1])
-
-#將字符串分割後使用sorted裡面key=lambda制定要怎麼排序，
-#x:x[-1]前面x是說明把陣列裡面每一個字串都叫做x之後是指定x的最後一個字來做排序

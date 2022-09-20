@@ -5,7 +5,7 @@
 # "ATTGC" --> "TAACG"
 # "GTAT" --> "CATA"
 
-#我的解法
+
 def DNA_strand(dna):
     li = list(dna)
     for i in range(len(li)):
@@ -21,8 +21,7 @@ def DNA_strand(dna):
     word = "".join(li)
     return word
 
-#大神解法
+
 # pairs = {'A':'T','T':'A','C':'G','G':'C'}
 # def DNA_strand(dna):
 #     return ''.join([pairs[x] for x in dna])
-# 運用Dictionary方法，假設dna帶入A給x，pairs[A]對應T，最後去除''

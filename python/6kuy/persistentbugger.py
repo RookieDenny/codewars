@@ -6,7 +6,7 @@
 # 4 --> 0 (because 4 is already a one-digit number)
 
 
-#我的解法
+
 def persistence(num):
     if num < 10:
         return 0 
@@ -17,7 +17,7 @@ def persistence(num):
     return 1 + persistence(total)
 
 
-#大神解法
+
 # import operator
 # def persistence(n):
 #     i = 0

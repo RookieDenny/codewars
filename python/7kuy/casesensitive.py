@@ -3,7 +3,7 @@
 # 例如，case_sensitive('codewars') 返回 [True, []]，但 case_sensitive('codeWaRs') 返回 [False, ['W', 'R']]。
 
 
-#我的解法
+
 def case_sensitive(s):
     if s.islower() or s == '':
         return [True, []] 
@@ -13,7 +13,6 @@ def case_sensitive(s):
                 return [False, [x]]
 
 
-#大神解法
+
 # def case_sensitive(s):
 #     return [s.islower() or not s, [c for c in s if c.isupper()]]
-#假設帶入"codeWaRs"，判斷是否小寫印出True,False，之後依序代進c判斷大寫印出

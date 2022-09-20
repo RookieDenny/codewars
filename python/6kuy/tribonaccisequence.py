@@ -7,7 +7,7 @@
 # [0, 0, 1, 1, 2, 4, 7, 13, 24, ...]3
 
 
-#我的解法
+
 def tribonacci(signature, n):
     y = len(signature)
     if n == 0:
@@ -22,7 +22,7 @@ def tribonacci(signature, n):
         return  signature
 
 
-#大神解法
+
 # def tribonacci(signature, n):
 #   res = signature[:n]
 #   for i in range(n - 3): res.append(sum(res[-3:]))

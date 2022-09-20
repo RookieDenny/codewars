@@ -5,7 +5,7 @@
 # 輸入：145263 輸出：654321
 # 輸入：123456789 輸出：987654321
 
-#我的解法
+
 def descending_order(num):
     lts = str(num)
     a = sorted(lts,reverse=True)
@@ -13,6 +13,5 @@ def descending_order(num):
     return int(x)
 
 
-#大神解法
-    # return int("".join(sorted(str(num), reverse=True)))
-    # 本來排序小到大,後面加一個reverse=True反向大到小之後去除空格回傳int值
+
+# return int("".join(sorted(str(num), reverse=True)))

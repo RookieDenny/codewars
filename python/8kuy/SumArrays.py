@@ -7,5 +7,7 @@
 # 輸出：0
 # 輸入：[-2.398]
 # 輸出：-2.398
+
+
 def sum_array(a):
     return sum(a) if a else 0

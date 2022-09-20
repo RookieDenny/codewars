@@ -4,7 +4,7 @@
 
 
 
-#我的解法
+
 import re
 def find_short(s):
     a = re.split(' ', s)
@@ -14,6 +14,5 @@ def find_short(s):
     return(min(y))
 
 
-#大神解法
-    # return min(len(x) for x in s.split())
-    # s.split變成陣列後依序代進x,計算長度回傳最小值
+
+# return min(len(x) for x in s.split())

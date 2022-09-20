@@ -8,7 +8,7 @@
 
 
 
-#我的解法
+
 def get_middle(s):
     a = len(s)
     if a % 2 == 0:
@@ -19,9 +19,7 @@ def get_middle(s):
         return(s[b])
 
 
-#大神解法
 # def get_middle(s):
 #     index, odd = divmod(len(s), 2)
 #     return s[index] if odd else s[index - 1:index + 1]
-#假設帶入test長度為4，index=2.odd=0，因為odd是0所以是False執行else[2-1:2+1]，印出es
 
