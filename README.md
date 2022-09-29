@@ -1,3 +1,3 @@
 # codewars logic practise
-### 練習程式邏輯，並且記錄
-### 從等級8kuy到等級1kuy慢慢遞增練習
+### Train program logic, and record
+### Gradually increase from level 8 to level 1
